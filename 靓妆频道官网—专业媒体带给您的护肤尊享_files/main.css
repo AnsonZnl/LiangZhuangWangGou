@@ -1,0 +1,70 @@
+body {background:#f7f7f7}
+
+/*全屏轮播滚动*/
+.banner{/*width:1920px;*/position:relative; margin:0px auto;overflow:hidden;}
+.banner_inner{position:relative;height:442px;width:1200px;margin:0px auto; text-align:right; display:block;}
+
+.banner_img{width:20000px}
+.banner_img li{float:left;width:100%;position:relative}
+
+.banner .child1{position:absolute;width:588px;height:442px;left:66px;top:0}
+.banner .child2{position:absolute;width:654px;height:442px;left:343px;top:0}
+.banner_common{position:relative;width:990px;margin:0 auto; }
+.banner_pre{position:absolute;top:50%;left:0;margin-top:180px;width:60px;height:60px;cursor:pointer;background:url(../images/banner_btn_l_24.png) no-repeat;opacity:.5;filter:alpha(opacity=50)}
+.banner_next{position:absolute;top:50%;right:0;margin-top:180px;width:60px;height:60px;cursor:pointer;background:url(../images/banner_btn_r_24.png) no-repeat;opacity:.5;filter:alpha(opacity=50)}
+.banner_pre:hover, .banner_next:hover{opacity:1;filter:alpha(opacity=100)}
+.banner .control{width:250px;position:absolute;bottom:30px;left:50%;margin-left:-125px}
+.banner .control li{float:left;margin-left:10px;width:20px;height:20px;border-radius:50%;cursor:pointer;background:#000; text-align:center; line-height:20px;}
+.banner .control li a{ color:#fff;}
+.banner .control li.current{background:#ff7f02;}
+.banner_inner.new0722{height:442px;}
+
+/*主体内容公共div*/
+.container{ width:1200px; margin:0px auto; padding:0px;/* overflow:hidden;*/}
+/*主体内容公共导航*/
+.common_menu_wraper{ width:1200px; margin:40px auto 10px;padding-bottom:5px;border-top:1px solid #000; text-align:center;}
+.common_menu_wraper .menu_icon {margin-top:-1px;}
+/*三列广告*/
+.ul_columns3 { margin-left:-21px; margin-top:30px;}
+.ul_columns3 li { float:left; margin-left:21px;}
+.ad_border1 { border:12px solid #fff;box-shadow:0px 0px 10px #eee;display:block; overflow:hidden}
+/*限时特卖*/
+.limited_ul li { margin-top:10px;}
+/*海外臻品、新品抢先、时尚彩妆*/
+.common_ul { margin-left:-8px;}
+.common_ul li { float:left; width:294px; margin-left:8px; margin-top:8px; background:#fff;}
+.common_ul li .product_content { margin:0px 8px;    }
+.common_ul li .product_content .p_img { position:relative;width:264px; height:264px;margin: 0px auto;}
+.common_ul li .product_content .p_img .img_width {width:100%;}
+.common_ul li .product_content .p_img .p_name {position:absolute; left:0px; bottom:0px; border-radius:20px;display:block;height:32px; line-height:32px;font-size:16px;width:100%; text-align:center; overflow:hidden; background:#f0eeee;  }
+.common_ul li .product_content .p_price { padding:20px 0px; height:32px;line-height:32px;font-size:14px; text-align:center; overflow:hidden;}
+.common_ul li .product_content .p_price del { margin:0px 5px; } 
+.common_ul li .product_content .btn { background:url(../images/btn.jpg) no-repeat; width:108px; height:28px;margin:0px 5px;display:inline-block; vertical-align:top; }
+
+/*爆款推荐*/
+.common_ul li.hot_left { width:596px; height:680px;}
+.common_ul li.hot_left .product_content .p_img { position:relative;width:576px; height:576px;}
+.common_ul li.hot_left .product_content .p_price {padding:52px 0px 20px;}
+
+/*右侧浮动*/
+.right_bar{ position:fixed; right:0px; bottom:0px;}
+.right_bar i { display:block; width:66px; background:url(../images/r_bar.png) no-repeat; position:relative;}
+.right_bar i.back_top { height:67px; background-position:0px 0px;}
+.right_bar i.servicer { height:64px; background-position:0px -67px;}
+.right_bar i.cart { height:66px; background-position:0px -131px;}
+.right_bar i.code { height:65px; background-position:0px -197px;}
+.right_bar i.cart .num {position: absolute;right: 5px;top: 5px;width: 16px;height: 16px; text-align:center; line-height:16px; color:#fff; background:#ff7f02;border-radius:50%; display:block;}
+.right_bar i.code .code_img { padding:5px; background:#fff; position:absolute; left:-92px; bottom:0px; width:80px;transition:2s; display:none;}
+.right_bar i.code .code_img img {width:100%;}
+.right_bar i.code:hover .code_img {display:block;}
+
+/* flexslider */
+.flexslider { position: relative; height: 442px; overflow: hidden; background: url(http://www.lzwg.com/css-newhome/images/loading.gif) 50% no-repeat; }
+.slides { position: relative; z-index: 1; }
+.slides li { height: 442px; }
+.flex-control-nav { position: absolute; bottom: 10px; z-index: 2; width: 100%; text-align: center; }
+.flex-control-nav li { display: inline-block; width: 14px; height: 14px; margin: 0 5px; *display: inline; zoom: 1; }
+.flex-control-nav a { display: inline-block; width: 14px; height: 14px; line-height: 40px; overflow: hidden; background: url(../images/dot.png) right 0 no-repeat; cursor: pointer; }
+.flex-control-nav .flex-active { background-position: 0 0; }
+.flex-direction-nav { position: absolute; z-index: 3; width: 100%; top: 45%; }
+.flex-direction-nav li a { display: block; width: 50px; height: 50px; overflow: hidden; cursor: pointer; position: absolute; }
