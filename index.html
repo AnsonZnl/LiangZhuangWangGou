@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>靓装频道官网——专业媒体带给您的护肤尊享</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--图标网址 http://fontawesome.io/icons/-->
 </head>
 <body>
 <!--这是头部-->
@@ -13,10 +15,10 @@
             <div class="top-left fl">
                     <a href="#" class="top-ber">登录</a>
                     <a href="#" class="top-ber">注册</a>
-                    <a href="#">购物车(<span>0</span>)</a>
+                    <a href="#"> 购物车(<span>0</span>)</a>
             </div>
             <div class="top_right fr">
-                <a href="#">您好！欢迎来到靓装官网！</a>
+                <span style="font-size: 12px;">您好！欢迎来到靓装官网！</span>
                 <a href="#" class="tr-bgi">关注靓装</a>
                 <a href="#" class="tr-bgi" style="background-image:url('img/phone.png');">靓装客户端</a>
             </div>
@@ -32,17 +34,17 @@
                     <img src="img/r_logo.png" alt="">
                 </a>
                 <div class="search clearfix">
-                    <div class="search-section fl">
+                    <div class="search-section fl clearfix">
                         <div class="hot-words">
                             <a href="#" target="_blank">羊胚胎素</a>
                             <a href="#" target="_blank">人体干细胞</a>
                             <a href="#" target="_blank">美白</a>
                         </div>
                         <input type="text" class="search-inp" placeholder="搜索您需要的商品">
-                        <input type="button" value="搜索" class="search-btn">
+                        <a href="#" class="search-btn fr"><i class="fa fa-search"></i></a>
                     </div>
                     <div class="cart-section fr">
-                        <a href="#">购物车</a>
+                        <a href="#"><i class="fa fa-shopping-cart" style="font-size:16px;"></i> 购物车</a>
                     </div>
                 </div>
             </div>
@@ -53,15 +55,172 @@
     <nav class="main-centers clearfix">
         <div class="nav-left fl">
             全部商品分类
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            <div class="left-nav">
+                <div class="sscz">
+                    <div class="left-head">
+                        <h4>面部护理</h4>
+                        <a href="#">面膜</a>
+                        <a href="#">洁面乳</a>
+                        <a href="#">爽肤水</a>
+                        <a href="#">精华</a>
+                        <a href="#">眼霜</a>
+                        <a href="#">防晒霜</a>
+                    </div>
+                    <ul>
+                        <li>
+                            <h4>基础护理</h4>
+                            <a href="#">面霜</a>
+                            <a href="#">乳液</a>
+                            <a href="#">化妆水</a>
+                            <a href="#">精华</a>
+                            <a href="#">冻干粉</a>
+                            <a href="#">翻晒隔离</a>
+                        </li>
+                        <li>
+                            <h4>洁面</h4>
+                            <a href="#">洁面乳</a>
+                            <a href="#">去角质</a>
+                        </li>
+                        <li>
+                            <h4>眼部/唇部护理</h4>
+                            <a href="#">眼霜</a>
+                            <a href="#">眼膜</a>
+                            <a href="#">护唇膏</a>
+                        </li>
+                        <li>
+                            <h4>海外精品</h4>
+                            <a href="#">九朵云</a>
+                            <a href="#">伊思</a>
+                            <a href="#">高丽雅娜</a>
+                            <a href="#">CURE</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sscz">
+                    <div class="left-head">
+                        <h4>时尚彩妆</h4>
+                        <a href="#">BB霜</a>
+                        <a href="#">唇膏</a>
+                        <a href="#">彩妆</a>
+                        <a href="#">粉饼</a>
+                        <a href="#">睫毛膏</a>
+                        <a href="#">彩妆</a>
+                    </div>
+                    <ul>
+                        <li>
+                            <h4>底妆</h4>
+                            <a href="#">防晒隔离</a>
+                            <a href="#">BB霜</a>
+                            <a href="#">CC霜</a>
+                            <a href="#">粉底</a>
+                            <a href="#">遮瑕</a>
+                            <a href="#">粉饼</a>
+                        </li>
+                        <li>
+                            <h4>眼部/唇部</h4>
+                            <a href="#">眼影</a>
+                            <a href="#">眼线</a>
+                            <a href="#">睫毛膏</a>
+                            <a href="#">眉笔</a>
+                            <a href="#">眉粉</a>
+                            <a href="#">唇彩</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sscz">
+                    <div class="left-head">
+                        <h4>美容保健</h4>
+                        <a href="#">孝素</a>
+                        <a href="#">纤体</a>
+                        <a href="#">丰胸</a>
+                        <a href="#">胶原蛋白</a>
+                        <a href="#">养颜</a>
+                    </div>
+                </div>
+                <div class="sscz">
+                    <div class="left-head">
+                        <h4>细胞抗衰老</h4>
+                        <a href="#">面部抗衰</a>
+                        <a href="#">全身抗衰</a>
+                        <a href="#">卵巢保养</a>
+                    </div>
+                </div>
+                <div class="sscz">
+                    <div class="left-head">
+                        <h4>韩国名品</h4>
+                        <a href="#">热销品牌</a>
+                        <a href="#">面部护理</a>
+                        <a href="#">彩妆用具</a>
+                        <a href="#">美容洗护</a>
+                        <a href="#">食品保健</a>
+                    </div>
+                    <ul>
+                        <li>
+                            <h4>热销品牌</h4>
+                            <a href="#">WHOO后</a>
+                            <a href="#">兰芝</a>
+                            <a href="#">丽得姿</a>
+                            <a href="#">Diaforce贵妇</a>
+                            <a href="#">芭妮兰</a>
+                            <a href="#">谜尚</a>
+                        </li>
+                        <li>
+                            <h4>面部护理</h4>
+                            <a href="#">化妆水</a>
+                            <a href="#">精华</a>
+                            <a href="#">乳液</a>
+                            <a href="#">面霜</a>
+                            <a href="#">眼霜/眼膜</a>
+                        </li>
+                        <li>
+                            <h4>彩妆用具</h4>
+                            <a href="#">BB霜</a>
+                            <a href="#">CC霜</a>
+                            <a href="#">粉底</a>
+                            <a href="#">翻晒隔离</a>
+                            <a href="#">卸妆</a>
+                            <a href="#">美容仪</a>
+                        </li>
+                        <li>
+                            <h4>美容洗护</h4>
+                            <a href="#">洗/护发</a>
+                            <a href="#">沐浴</a>
+                            <a href="#">身体护理</a>
+                            <a href="#">洁面</a>
+                        </li>
+                        <li>
+                            <h4>食品保健</h4>
+                            <a href="#">空美一</a>
+                            <a href="#">空美二</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="nav-center">
-
+        <div class="nav-center fl">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">海外臻品</a></li>
+                <li><a href="#">细胞抗衰老</a></li>
+                <li><a href="#">靓妆医美</a></li>
+                <li><a href="#">凯岚太阳镜旗舰店</a></li>
+            </ul>
         </div>
-        <div class="nav-right">
-
+        <div class="nav-right fr">
+            <img src="img/nav_Right.jpg" alt="">
         </div>
     </nav>
 </div>
+<!--轮播图待修改-->
+<div class="banner-inner">
+    <div class="banner">
+        <ul class="clearfix">
+            <li><a href="#"></a></li>
+        </ul>
+    </div>
+</div>
+
 <!--<script src="js/script.js"></script>-->
 </body>
 </html>

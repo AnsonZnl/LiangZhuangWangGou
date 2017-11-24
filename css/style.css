@@ -39,7 +39,6 @@ li{
     list-style: none;
 }
 a{
-    color:#333;
     text-decoration:none;
     cursor:pointer;
     outline: 0 none;
@@ -47,6 +46,9 @@ a{
 a:hover{
     text-decoration:none;
     color: inherit;
+}
+img{
+    display: block;
 }
 /*header样式*/
 .header-top-inner{
@@ -65,6 +67,7 @@ a:hover{
 }
 .header-top a{
     font-size: 12px;
+    color: #666;
 }
 .tr-bgi{
     display: inline-block;
@@ -95,8 +98,8 @@ a:hover{
     border: 1px solid rgb(223, 223, 223);
 }
 .search-btn{
-    width: 44px;
-    height: 38px;
+    display:block;
+    padding:8px 14px 9px 14px ;
     margin-left: -4px;
     border:0;
     border-left: 1px solid rgb(223, 223, 223);
@@ -119,6 +122,7 @@ a:hover{
     padding: 9px 10px;
     border: 1px solid rgb(228, 18, 119);
     line-height: 20px;
+    font-size: 12px;
     text-align: center;
     color: rgb(255, 255, 255);
     background: rgb(228, 18, 119);
@@ -150,11 +154,92 @@ a:hover{
  }
  .nav-left{
      width: 230px;
-     height: 32px;
+     height: 33px;
      background: rgb(237, 20, 91);
      line-height: 32px;
      font-size: 14px;
      color: rgb(255, 255, 255);
      font-weight: bold;
      text-align: center;
+ }
+ .nav-center ul li{
+     display: inline-block;
+ }
+ .nav-center ul li a{
+     display: inline-block;
+     margin-left: 20px;
+     padding: 0 20px 0 20px;
+     font-size: 14px;
+     color: #fff;
+     font-weight: bold;
+ }
+ .nav-center ul li a:hover{
+     background: rgb(228, 18, 119);
+ }
+ /*left-nav*/
+ .left-nav{
+     float: left;
+     z-index: 9999;
+     position: relative;
+     width: 226px;
+     background: #fafafa;
+     text-align: left;
+     border: solid #d81a5a;
+     border-width: 0 2px 2px;
+
+ }
+ .sscz h4{
+     font-weight: bold;
+     height: 30px;
+     line-height: 30px;
+     padding: 0;
+     margin: 0;
+     color: #d81a5a;
+     font-size: 14px;
+     display: block;
+ }
+ .sscz a{
+     height: 24px;
+     line-height: 24px;
+     display: inline-block;
+     font-size: 12px;
+     color: #333;
+     text-align: left;
+     margin-right: 6px;
+ }
+ .sscz ul{
+     display: none;
+     margin: 0 auto;
+     float: left;
+     border-right: 1px solid #efefef;
+     width: 150px;
+     height: 150px;
+     padding: 0 20px;
+ }
+ .left-head{
+     width: 202px;
+     height: auto;
+     line-height: 0px;
+     font-size: 14px;
+     font-weight: normal;
+     padding: 4px 12px 3px;
+     margin: 0px auto;
+     text-align: left;
+     position: relative;
+     z-index: 3;
+ }
+ /*banenr 样式*/
+.banner-inner{
+    height: 442px;
+}
+.banner ul li{
+     z-index: 1;
+     display: block;
+     width: 100%;
+     height: 442px;
+     float: left;
+     background: url("https://images.lzwg.com/Upload/app/20171122/17340667.jpg") 50% 0 no-repeat;
+     margin-right: -100%;
+     position: relative;
+     opacity: 1;
  }
