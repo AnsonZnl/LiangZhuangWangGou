@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <!--图标网址 http://fontawesome.io/icons/-->
+    <base target="_blank" />
 </head>
 <body>
 <!--这是头部-->
@@ -58,7 +59,7 @@
             <i class="fa fa-chevron-down" aria-hidden="true"></i>
             <div class="left-nav">
                 <div class="sscz">
-                    <div class="left-head">
+                    <div class="left-head J-left-nav">
                         <h4>面部护理</h4>
                         <a href="#">面膜</a>
                         <a href="#">洁面乳</a>
@@ -67,7 +68,7 @@
                         <a href="#">眼霜</a>
                         <a href="#">防晒霜</a>
                     </div>
-                    <ul>
+                    <ul class="clearfix" style="width: 684px;">
                         <li>
                             <h4>基础护理</h4>
                             <a href="#">面霜</a>
@@ -98,7 +99,7 @@
                     </ul>
                 </div>
                 <div class="sscz">
-                    <div class="left-head">
+                    <div class="left-head J-left-nav">
                         <h4>时尚彩妆</h4>
                         <a href="#">BB霜</a>
                         <a href="#">唇膏</a>
@@ -107,7 +108,7 @@
                         <a href="#">睫毛膏</a>
                         <a href="#">彩妆</a>
                     </div>
-                    <ul>
+                    <ul class="clearfix" style="width: 342px;">
                         <li>
                             <h4>底妆</h4>
                             <a href="#">防晒隔离</a>
@@ -147,7 +148,7 @@
                     </div>
                 </div>
                 <div class="sscz">
-                    <div class="left-head">
+                    <div class="left-head J-left-nav">
                         <h4>韩国名品</h4>
                         <a href="#">热销品牌</a>
                         <a href="#">面部护理</a>
@@ -155,7 +156,7 @@
                         <a href="#">美容洗护</a>
                         <a href="#">食品保健</a>
                     </div>
-                    <ul>
+                    <ul class="clearfix" style="top: -61px;width:855px;">
                         <li>
                             <h4>热销品牌</h4>
                             <a href="#">WHOO后</a>
@@ -212,15 +213,592 @@
         </div>
     </nav>
 </div>
-<!--轮播图待修改-->
+<!--banner 轮播图-->
 <div class="banner-inner">
     <div class="banner">
-        <ul class="clearfix">
-            <li><a href="#"></a></li>
+        <ul id="index">
+            <li class="on"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul id="img">
+            <li class="opa-on" style="background: url('img/banner_bg1.jpg') 50% 0 no-repeat;"><a href="#"></a></li>
+            <li style="background: url('img/banner_bg2.jpg') 50% 0 no-repeat;"><a href="#"></a></li>
+            <li style="background: url('img/banner_bg3.jpg') 50% 0 no-repeat;"><a href="#"></a></li>
+            <li style="background: url('img/banner_bg4.jpg') 50% 0 no-repeat;"><a href="#"></a></li>
         </ul>
     </div>
 </div>
-
-<!--<script src="js/script.js"></script>-->
+<!--main 部分-->
+<div class="main bg-color pb40">
+    <!--三广告图-->
+    <div class="three-banner main-centers">
+        <a href="#"><img src="img/banner_img1.jpg" alt=""></a>
+        <a href="#"><img src="img/banner_img2.jpg" alt=""></a>
+        <a href="#"><img src="img/banner_img3.jpg" alt=""></a>
+    </div>
+    <!--海外臻品-->
+    <div class="main-centers common-menu-wraper">
+        <img src="img/international.png" alt="">
+        <div class="common-main">
+            <a href="#" class="common-content">
+                <img src="img/hwzq_img1.jpg" alt="">
+                <span class="common-name">日本HappylifeBio 美肌平衡美容液</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 1599</font>
+                    <del class="color9 font16">¥4980</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hwzq_img2.jpg" alt="">
+                <span class="common-name">九朵云 奇迹马油霜 3瓶</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 281</font>
+                    <del class="color9 font16">¥948</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hwzq_img3.jpg" alt="">
+                <span class="common-name">德国sunshine health 胶原蛋白胶囊 </span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 1300</font>
+                    <del class="color9 font16">¥2997</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hwzq_img4.jpg" alt="">
+                <span class="common-name">可莱丝 针剂水库面膜 30片</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 270</font>
+                    <del class="color9 font16">¥807</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hwzq_img5.jpg" alt="">
+                <span class="common-name">伊思 红参蜗牛滚珠眼霜 2盒</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 550</font>
+                    <del class="color9 font16">¥760</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hwzq_img6.jpg" alt="">
+                <span class="common-name">德国芭乐雅 天然玻尿酸精华 7支x2盒</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 180</font>
+                    <del class="color9 font16">¥278</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hwzq_img7.jpg" alt="">
+                <span class="common-name">日本Pola 祛皱精华液</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 1180</font>
+                    <del class="color9 font16">¥1380</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hwzq_img8.jpg" alt="">
+                <span class="common-name">日本YOKY 玻尿酸原液 3瓶</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 550</font>
+                    <del class="color9 font16">¥1440</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hwzq_img9.jpg" alt="">
+                <span class="common-name">日本高丝 玻尿酸保湿抽取式面膜 30</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 68</font>
+                    <del class="color9 font16">¥169</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hwzq_img10.jpg" alt="">
+                <span class="common-name">日本Pola 抗老饮</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 1399</font>
+                    <del class="color9 font16">¥1799</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hwzq_img11.jpg" alt="">
+                <span class="common-name">德国芭乐雅 抗衰老精华（胶囊） 4盒</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 161</font>
+                    <del class="color9 font16">¥400</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hwzq_img12.jpg" alt="">
+                <span class="common-name">日本ReFa Carat铂金微电流滚轮美容</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 1580</font>
+                    <del class="color9 font16">¥2390</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+        </div>
+    </div>
+    <!--爆款推荐-->
+    <div class="main-centers common-menu-wraper">
+        <img src="img/hot.png" alt="">
+        <div class="common-main clearfix">
+            <a href="#" class="hot-left fl">
+                <img src="img/hs_left_img.jpg" alt="">
+                <span class="common-name hot-name">加强型羊胚胎素冻干粉 12盒</span>
+                <p class="p-price pt52">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 5000</font>
+                    <del class="color9 font16">¥15600</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hs_img1.jpg" alt="">
+                <span class="common-name">-52°活性胶原精华液 7盒</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 2500</font>
+                    <del class="color9 font16">¥7000</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hs_img2.jpg" alt="">
+                <span class="common-name">羊胚胎素美肌亮妍高机能化妆水 3瓶</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 450</font>
+                    <del class="color9 font16">¥516</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hs_img3.jpg" alt="">
+                <span class="common-name">水漂漂醒肤保湿露 6瓶</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 151</font>
+                    <del class="color9 font16">¥1080</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hs_img4.jpg" alt="">
+                <span class="common-name">人体干细胞逆时空驻颜套盒*6</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 2280</font>
+                    <del class="color9 font16">¥4554</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hs_img5.jpg" alt="">
+                <span class="common-name">极润玻尿酸水嫩面膜 60片</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 358</font>
+                    <del class="color9 font16">¥1440</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hs_img6.jpg" alt="">
+                <span class="common-name">羊胚胎素蚕丝面膜 35片</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 181</font>
+                    <del class="color9 font16">¥1260</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hs_img7.jpg" alt="">
+                <span class="common-name">我的心机 黑珍珠丝光透亮面膜 美白</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 171</font>
+                    <del class="color9 font16">¥474</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/hs_img8.jpg" alt="">
+                <span class="common-name">胶原高保湿调理喷雾 3瓶</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 220</font>
+                    <del class="color9 font16">¥594</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+        </div>
+    </div>
+    <!--新品抢先-->
+    <div class="main-centers common-menu-wraper">
+        <img src="img/new.png" alt="">
+        <div class="common-main">
+            <a href="#" class="common-content">
+                <img src="img/new_img1.jpg" alt="">
+                <span class="common-name">人体干细胞赋活冻干粉 3盒</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 1800</font>
+                    <del class="color9 font16">¥4500</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img2.jpg" alt="">
+                <span class="common-name">名媛美白淡斑4件套</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 231</font>
+                    <del class="color9 font16">¥496</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img3.jpg" alt="">
+                <span class="common-name">米佐紧致抗皱6件套 </span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 1500</font>
+                    <del class="color9 font16">¥1610</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img4.jpg" alt="">
+                <span class="common-name">水之天使 保湿凝胶五合一面霜 2盒</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 300</font>
+                    <del class="color9 font16">¥436</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img5.jpg" alt="">
+                <span class="common-name">我的心机 肌肤方程式水凝胶补水面膜</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 150</font>
+                    <del class="color9 font16">¥200</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img6.jpg" alt="">
+                <span class="common-name">靓妆四季 玫瑰花水 200ml</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 99</font>
+                    <del class="color9 font16">¥138</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img7.jpg" alt="">
+                <span class="common-name">靓妆四季 玫瑰花冠茶 </span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 128</font>
+                    <del class="color9 font16">¥218</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img8.jpg" alt="">
+                <span class="common-name">日本ORIFER 发酵美容液30支</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 900</font>
+                    <del class="color9 font16">¥1280</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img9.jpg" alt="">
+                <span class="common-name">美克斯面部桑拿器（冷热香薰蒸脸)</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 359</font>
+                    <del class="color9 font16">¥399</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img10.jpg" alt="">
+                <span class="common-name">德国芭乐雅 莲花青竹洗面奶</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 69</font>
+                    <del class="color9 font16">¥99</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img11.jpg" alt="">
+                <span class="common-name">茜勒博士野玫瑰淡斑抗皱眼霜</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 375</font>
+                    <del class="color9 font16">¥618</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img12.jpg" alt="">
+                <span class="common-name">干细胞青春肌密雪肤面膜 10片</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 350</font>
+                    <del class="color9 font16">¥536</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img13.jpg" alt="">
+                <span class="common-name">雪芙兰滋养乳液 2瓶</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 126</font>
+                    <del class="color9 font16">¥178</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img14.jpg" alt="">
+                <span class="common-name">肌安特 逆龄焕彩礼盒</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 998</font>
+                    <del class="color9 font16">¥1146</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img15.jpg" alt="">
+                <span class="common-name">Yuskin 360°旋转童颜仪</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 1280</font>
+                    <del class="color9 font16">¥1980</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/new_img16.jpg" alt="">
+                <span class="common-name">安琪纽特 酵母护肤精华套装</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 480</font>
+                    <del class="color9 font16">¥960</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+        </div>
+    </div>
+    <!--时尚彩妆-->
+    <div class="main-centers common-menu-wraper">
+        <img src="img/fashion.png" alt="">
+        <div class="common-main">
+            <a href="#" class="common-content">
+                <img src="img/Makeup_img1.jpg" alt="">
+                <span class="common-name">爱丽莎酷伊 高级金色矿物质BB霜</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 298</font>
+                    <del class="color9 font16">¥388</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/Makeup_img2.jpg" alt="">
+                <span class="common-name">睫毛滋养增长套装</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 249</font>
+                    <del class="color9 font16">¥398</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/Makeup_img3.jpg" alt="">
+                <span class="common-name">泰国Mistine 4D双头睫毛膏 </span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 69</font>
+                    <del class="color9 font16">¥99</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/Makeup_img4.jpg" alt="">
+                <span class="common-name">靓妆臻品口红（正红色+橘色）2支</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 118</font>
+                    <del class="color9 font16">¥200</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/Makeup_img5.jpg" alt="">
+                <span class="common-name">法国妲洛妃 舒润卸妆乳液</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 180</font>
+                    <del class="color9 font16">¥298</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/Makeup_img6.jpg" alt="">
+                <span class="common-name">美国伊丽莎白雅顿 第五大道香水</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 168</font>
+                    <del class="color9 font16">¥198</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/Makeup_img7.jpg" alt="">
+                <span class="common-name">无瑕亮采清润BB霜(眼部专用） </span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 100</font>
+                    <del class="color9 font16">¥188</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+            <a href="#" class="common-content">
+                <img src="img/Makeup_img8.jpg" alt="">
+                <span class="common-name">美国原装 伊丽莎白雅顿 绿茶香水</span>
+                <p class="p-price">
+                    <font class="red fwb">¥</font>
+                    <font class="red font24 fwb"> 168</font>
+                    <del class="color9 font16">¥198</del>
+                    <strong>立即抢购</strong>
+                </p>
+            </a>
+        </div>
+    </div>
+</div>
+<!--右侧浮动窗口-->
+<div class="right-bar">
+    <i></i>
+    <i></i>
+    <i></i>
+</div>
+<!--footer 部分-->
+<footer class="bg-color">
+    <div class="footer-top-inner">
+        <div class="footer-top">
+            <ul class="main-centers">
+                <li>
+                    <i></i>
+                    满200元免运费
+                </li>
+                <li>
+                    <i style="background-position: 0 -52px;"></i>
+                    全国货到付款
+                </li>
+                <li>
+                    <i style="background-position: 0 -104px;"></i>
+                    100%正品保证
+                </li>
+                <li>
+                    <i style="background-position: 0 -156px;"></i>
+                    品牌直供
+                </li>
+                <li>
+                    <i style="background-position: 0 -208px;"></i>
+                    贴心客服
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-button-inner">
+        <div class="footer-button main-centers clearfix">
+            <div class="fb-left fl">
+                <strong class="fwb font24">400-8888-458</strong>
+                <p class="font14">24小时热线</p>
+                <p class="font14">（全国免费）</p>
+                <p class="font14">苏ICP备11022804号-1 </p>
+            </div>
+            <div class="fb-right fr">
+                <dl class="clearfix">
+                    <dd>
+                        <strong class="fwb font16">帮助中心</strong>
+                        <a href="#">购物流程</a>
+                        <a href="#">会员专享</a>
+                        <a href="#">常见问题</a>
+                    </dd>
+                    <dd>
+                        <strong class="fwb font16">售后服务</strong>
+                        <a href="#">退换货说明</a>
+                        <a href="#">退款说明</a>
+                        <a href="#">发票说明</a>
+                    </dd>
+                    <dd>
+                        <strong class="fwb font16">支付方式</strong>
+                        <a href="#">货到付款</a>
+                        <a href="#">在线支付</a>
+                        <a href="#">银行汇款</a>
+                    </dd>
+                    <dd>
+                        <strong class="fwb font16">配送服务</strong>
+                        <a href="#">配送范围</a>
+                        <a href="#">配送方式</a>
+                        <a href="#">验货签收</a>
+                    </dd>
+                    <dd>
+                        <strong class="fwb font16">联系我们</strong>
+                        <a href="#">微信微博</a>
+                        <a href="#">联系我们</a>
+                    </dd>
+                    <dd style="border: none;">
+                        <i><img src="img/2w.jpg" alt=""></i>
+                        <p>微信</p>
+                    </dd>
+                    <dd style="border: none;" class="ml-38">
+                        <i><img src="img/lzappwx.png" alt=""></i>
+                        <p>下载客户端</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/script.js"></script>
 </body>
 </html>

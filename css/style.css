@@ -6,15 +6,11 @@ textarea, th, td, em, i, img{
     margin: 0;
     padding: 0;
     font-family: 微软雅黑, 宋体, Arial;
+
 }
 html,body{
     width:100%;
     overflow-x:hidden;
-}
-.container {
-    width:1200px;
-    position:relative;
-    margin:0 auto;
 }
 .main-centers{
     width: 1200px;
@@ -186,7 +182,10 @@ img{
      text-align: left;
      border: solid #d81a5a;
      border-width: 0 2px 2px;
-
+     box-shadow: 2px 2px 5px #ccc;
+ }
+ .sscz{
+     position: relative;
  }
  .sscz h4{
      font-weight: bold;
@@ -209,37 +208,305 @@ img{
  }
  .sscz ul{
      display: none;
-     margin: 0 auto;
-     float: left;
+     position: absolute;
+     top:0;
+     left: 228px;
      border-right: 1px solid #efefef;
+     height: 150px;
+ }
+ .sscz ul li{
+     float: left;
      width: 150px;
      height: 150px;
-     padding: 0 20px;
+     /*padding: 0 20px;*/
+     padding-left:20px;
+     border-right: 1px solid #efefef;
+     background: #fafafa;
+ }
+ .sscz ul li:hover{
+     background: #eee;
+ }
+ .sscz ul:last-child{
+     border: none;
+ }
+ .sscz ul li a{
+     display: inline-block;
+     width: 60px;
+     text-align: left;
  }
  .left-head{
      width: 202px;
      height: auto;
-     line-height: 0px;
+     line-height: 0;
      font-size: 14px;
      font-weight: normal;
      padding: 4px 12px 3px;
-     margin: 0px auto;
+     margin: 0 auto;
      text-align: left;
      position: relative;
      z-index: 3;
  }
- /*banenr 样式*/
+ .left-head:hover{
+     background: #d81a5a;
+     border-right: solid 2px #d81a5a;
+ }
+
+ .left-head:hover a{
+     color: #fff;
+ }
+ .left-head:hover h4{
+     color: #fff;
+ }
+     /*banenr 轮播图 样式*/
 .banner-inner{
+    position: relative;
     height: 442px;
 }
-.banner ul li{
-     z-index: 1;
-     display: block;
+ .banner{
+     height: 442px;
+     margin:auto;
+     overflow: hidden;
+     position: relative;
+ }
+ #index{
+     z-index:2;
+     position: absolute;
+     left:50%;
+     margin-left:-36px;
+     bottom: 20px;
+ }
+ #index li{
+     width:14px;
+     height: 14px;
+     border-radius: 100%;
+     background-color: #656565;
+     display: inline-block;
+     box-shadow: 0 .5px #fff;
+ }
+ #img{
+     height: 442px;
+ }
+ #img li{
      width: 100%;
      height: 442px;
-     float: left;
+     position: absolute;/*必须设置为absolute，否则第一个li会把后面的都覆盖*/
+     z-index: 1;
+     opacity: 0;
+     transition: opacity 1s ease-in;
      background: url("https://images.lzwg.com/Upload/app/20171122/17340667.jpg") 50% 0 no-repeat;
-     margin-right: -100%;
+ }
+ #img li a{
      position: relative;
+     display: block;
+     width: 1200px;
+     height: 442px;
+     margin:auto;
+ }
+ #index .on{
+     background-color: #da6f13;
+     box-shadow:none;
+ }
+ #img .opa-on{
      opacity: 1;
+ }
+ /*main 部分*/
+ .main{
+     width: 100%;
+ }
+ /*three-banner 三广告图部分*/
+ .three-banner{
+     margin-top: 30px;
+     margin-bottom: 30px;
+ }
+ .three-banner a{
+     display: inline-block;
+     border: 12px solid #fff;
+     box-shadow: 0 0 10px #eee;
+     margin-left: 8px;
+ }
+ /*---通用样式---海外臻品-海外臻品-爆款推荐-新品抢先-新品抢先---通用样式---*/
+ .red{
+     color: #F00;
+ }
+ .font24{
+     font-size: 24px;
+ }
+ .fwb{
+     font-weight: bold;
+ }
+ .color9 {
+     color: #999;
+ }
+ .font16 {
+     font-size: 16px;
+ }
+ .common-menu-wraper{
+     margin: 40px auto 10px;
+     padding-bottom: 5px;
+     border-top: 1px solid #000;
+ }
+ .common-main{
+     margin-top: 26px;
+ }
+ .common-menu-wraper>img{
+     margin: auto;
+     margin-top: -1px;
+ }
+ .common-content{
+     position: relative;
+     display: inline-block;
+     margin-right: -4px;
+     box-sizing: border-box;
+     padding: 9px 15px;
+     width: 294px;
+     margin-left: 6px;
+     margin-top: 8px;
+     background: #fff;
+ }
+ .common-content img{
+     width: 100%;
+     height: 246px;
+     margin-right: 0;
+ }
+ .common-name{
+     position: absolute;
+     top:226px;
+     border-radius: 20px;
+     display: block;
+     height: 32px;
+     line-height: 32px;
+     font-size: 16px;
+     width: 262px;
+     text-align: center;
+     background: #f0eeee;
+     color: black;
+ }
+ .p-price{
+     padding: 20px 0;
+     height: 32px;
+     line-height: 32px;
+     font-size: 14px;
+     text-align: center;
+ }
+ .p-price del {
+     margin: 0 3px;
+ }
+ .p-price strong {
+     display: inline-block;
+     padding: 0 7px;
+     margin: 0 2px;
+     letter-spacing:2px;
+     font-size: 18px;
+     color: #fff;
+     background: #f00e58;
+ }
+ .hot-left{
+     position: relative;
+     display: inline-block;
+     box-sizing: border-box;
+     padding: 0 15px;
+     width: 592px;
+     margin-top: 8px;
+     margin-left: 8px;
+     /* margin-right: 4px; */
+     background: #fff;
+ }
+ .hot-left>img{
+     width: 100%;
+     height: 576px;
+ }
+ .hot-name{
+     width: 546px;
+     left: 20px;
+     top: 538px;
+ }
+ .pt52{
+     padding-top: 41px;
+     padding-bottom: 30px;
+ }
+ .pb40{
+     padding-bottom: 40px;
+     padding-top: 1px;
+ }
+ /*右侧悬浮框*/
+ .right-bar{
+    z-index: 9999;
+    position: fixed;
+    right: 0;
+    bottom: 30px;
+    width: 66px;
+    height: 196px;
+    background: url("../img/r_bar.png");
+ }
+ .right-bar i{
+     display: block;
+     width: 65px;
+     height: 65px;
+ }
+ /*footer*/
+ .font14{
+     font-size: 14px;
+ }
+ .ml-38{
+     margin-left: -38px;
+ }
+ .footer-top-inner{
+     height: auto;
+     margin:0 auto 10px;
+     background: #ed145b;
+ }
+ .footer-top ul{
+     padding: 5px 0;
+     background: #fff;
+     box-shadow: 0 5px 5px #999;
+     height: 52px;
+ }
+ .footer-top ul li{
+     display: inline-block;
+     margin-right: -4px;
+     width: 240px;
+     line-height: 52px;
+     font-size: 14px;
+     text-align: center/*font-weight:bold*/;
+ }
+ .footer-top ul li i{
+     width: 52px;
+     height: 52px;
+     display: inline-block;
+     background: url(../img/fb.png) 0 0 no-repeat;
+     vertical-align: middle;
+     margin-right: 10px;
+ }
+ .footer-button-inner{
+     margin: 10px auto 0;
+     padding: 25px 0 25px;
+     background: #fff;
+ }
+ .fb-left{
+     width: 200px;
+     float: left;
+     text-align: center;
+     line-height: 28px;
+ }
+ .fb-right dd{
+     float: left;
+     height: 120px;
+     padding: 0 38px;
+     border-right: 1px solid #ccc;
+     line-height: 30px;
+ }
+ .fb-right dd a{
+     display: block;
+     color: #666;
+     font-size: 13px;
+     text-align: center;
+ }
+ .fb-right img{
+     display: block;
+     width: 90px;
+     height: 90px;
+ }
+ .fb-right p{
+     text-align: center;
+     font-size: 13px;
  }
