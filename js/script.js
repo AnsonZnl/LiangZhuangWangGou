@@ -78,3 +78,21 @@ var play=function(){
     },3000);
 };
 play();
+//返回顶部
+var sdelay=0;
+function returnTop() {
+    window.scrollBy(0,-200);//Only for y vertical-axis
+    if(document.body.scrollTop>0) {
+        sdelay= setTimeout('returnTop()',40);
+    }
+}
+//码上惊喜
+function saoma(s){
+    s.onmouseover=function(){
+        this.firstElementChild.style.display='block'
+    };
+    s.onmouseout=function(){
+        this.firstElementChild.style.display='none'
+    };
+}
+saoma(code);

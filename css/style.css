@@ -52,14 +52,11 @@ img{
     border-bottom: 1px solid #eee;
     background: #f7f7f7;
 }
-.top-ber{
-    line-height:30px;
+.header-top{
+    margin-top: 2px;
 }
-.top-ber:after{
-    content: "|";
+.header-top li{
     display: inline-block;
-    width: 16px;
-    text-align: -webkit-center;
 }
 .header-top a{
     font-size: 12px;
@@ -218,8 +215,7 @@ img{
      float: left;
      width: 150px;
      height: 150px;
-     /*padding: 0 20px;*/
-     padding-left:20px;
+     padding: 2px 20px;
      border-right: 1px solid #efefef;
      background: #fafafa;
  }
@@ -231,8 +227,12 @@ img{
  }
  .sscz ul li a{
      display: inline-block;
-     width: 60px;
+     margin-right: -4px;
+     width: 50%;
      text-align: left;
+     color: #666;
+     font-size:12px;
+     font-weight:200;
  }
  .left-head{
      width: 202px;
@@ -314,12 +314,15 @@ img{
      width: 100%;
  }
  /*three-banner 三广告图部分*/
+ .three-banner li{
+     float: left;
+ }
  .three-banner{
      margin-top: 30px;
      margin-bottom: 30px;
  }
  .three-banner a{
-     display: inline-block;
+     display: block;
      border: 12px solid #fff;
      box-shadow: 0 0 10px #eee;
      margin-left: 8px;
@@ -348,14 +351,16 @@ img{
  .common-main{
      margin-top: 26px;
  }
+ .common-main li{
+     float: left;
+ }
  .common-menu-wraper>img{
      margin: auto;
      margin-top: -1px;
  }
  .common-content{
      position: relative;
-     display: inline-block;
-     margin-right: -4px;
+     display: block;
      box-sizing: border-box;
      padding: 9px 15px;
      width: 294px;
@@ -435,13 +440,30 @@ img{
     right: 0;
     bottom: 30px;
     width: 66px;
-    height: 196px;
+    height: 261px;
     background: url("../img/r_bar.png");
+ }
+ .right-bar a{
+     display: block;
+     width: 65px;
+     height: 65px;
  }
  .right-bar i{
      display: block;
      width: 65px;
      height: 65px;
+ }
+ #code{
+     position: relative;
+ }
+ #code-img{
+     z-index: 9999;
+     display: none;
+     position: absolute;
+     top:-48px;
+     right:62px;
+     width: 90px;
+     height: 90px;
  }
  /*footer*/
  .font14{
