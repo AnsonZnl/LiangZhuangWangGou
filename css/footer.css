@@ -1,0 +1,68 @@
+
+/*footer*/
+.font14{
+    font-size: 14px;
+}
+.ml-38{
+    margin-left: -38px;
+}
+.footer-top-inner{
+    height: auto;
+    margin:0 auto 10px;
+    background: #ed145b;
+}
+.footer-top ul{
+    padding: 5px 0;
+    background: #fff;
+    box-shadow: 0 5px 5px #999;
+    height: 52px;
+}
+.footer-top ul li{
+    display: inline-block;
+    margin-right: -4px;
+    width: 240px;
+    line-height: 52px;
+    font-size: 14px;
+    text-align: center/*font-weight:bold*/;
+}
+.footer-top ul li i{
+    width: 52px;
+    height: 52px;
+    display: inline-block;
+    background: url(../img/fb.png) 0 0 no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.footer-button-inner{
+    margin: 10px auto 0;
+    padding: 25px 0 25px;
+    background: #fff;
+}
+.fb-left{
+    width: 200px;
+    float: left;
+    text-align: center;
+    line-height: 28px;
+}
+.fb-right dd{
+    float: left;
+    height: 120px;
+    padding: 0 38px;
+    border-right: 1px solid #ccc;
+    line-height: 30px;
+}
+.fb-right dd a{
+    display: block;
+    color: #666;
+    font-size: 13px;
+    text-align: center;
+}
+.fb-right img{
+    display: block;
+    width: 90px;
+    height: 90px;
+}
+.fb-right p{
+    text-align: center;
+    font-size: 13px;
+}

@@ -3,22 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>靓装频道官网——专业媒体带给您的护肤尊享</title>
+    <meta name="Keywords" content="靓妆官方网站,靓妆网购,靓妆网,靓妆,靓装,化妆品,网购,网上购物,网上商城,购物网站,女性购物网站,化妆品团购,靓妆直播间,谢小华,韩琳,叶璐,可易,羊胚胎素冻干粉,lzwg.com,靓妆" />
+    <meta name="Description" content="8倍以上抗衰老，轰动巴黎美博会！全国专业美容护肤电视媒体靓妆频道，独家特供羊胚胎素冷冻原液、人体干细胞、医用级活性胶原等高科技抗衰老护肤精品，轻松实现坐在家里做美容。" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/right-bar.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <!--图标网址 http://fontawesome.io/icons/-->
     <base target="_blank"/>
 </head>
 <body>
-<!--这是头部-->
+<!--这是header 部分-->
 <div class="header-inner">
     <div class="header-top-inner .bg-color">
         <div class="header-top main-centers clearfix">
-            <ul class="top-left fl">
+            <ul class="top-left fl clearfix">
                 <li><a href="#">登录</a></li>
                 <li><a href="#">注册</a></li>
-                <li><a href="#">购物车(<span>0</span>)</a></li>
+                <li><a href="#" style="border: 0">购物车(<span>0</span>)</a></li>
             </ul>
-            <ul class="top_right fr">
+            <ul class="top_right fr clearfix">
                 <li><span style="font-size: 12px;">您好！欢迎来到靓装官网！</span></li>
                 <li><a href="#" class="tr-bgi">关注靓装</a></li>
                 <li><a href="#" class="tr-bgi" style="background-image:url('img/phone.png');">靓装客户端</a></li>
@@ -245,7 +251,7 @@
         <img src="img/international.png" alt="">
         <div class="common-main">
             <ul class="clearfix">
-                <li><a href="#" class="common-content">
+                <li><a href="product/001.html" class="common-content">
                     <img src="img/hwzq_img1.jpg" alt="">
                     <span class="common-name">日本HappylifeBio 美肌平衡美容液</span>
                     <p class="p-price">
@@ -724,14 +730,12 @@
     </div>
 </div>
 <!--右侧浮动窗口-->
-<div class="right-bar">
-    <a href="javascript:returnTop();" target="_self"></a>
-    <a href="#"></a>
-    <a href="#"></a>
-    <i id="code">
-        <b id="code-img"><img src="img/lzappwx.png" alt=""></b>
-    </i>
-</div>
+<ul class="right-bar">
+    <li onclick="returnTop()"></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li id="J-code"><img id="J-code-img" src="img/lzappwx.png" alt=""></li>
+</ul>
 <!--footer 部分-->
 <footer class="bg-color">
     <div class="footer-top-inner">
@@ -813,5 +817,6 @@
     </div>
 </footer>
 <script src="js/script.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>

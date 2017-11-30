@@ -1,0 +1,28 @@
+
+/*右侧悬浮框*/
+.right-bar{
+    z-index: 9999;
+    position: fixed;
+    right: 0;
+    bottom: 30px;
+    width: 66px;
+    height: 261px;
+    background: url("../img/r_bar.png");
+}
+.right-bar li{
+    display: block;
+    width: 65px;
+    height: 65px;
+}
+#J-code{
+    position: relative;
+}
+#J-code-img{
+    z-index: 9999;
+    display: none;
+    position: absolute;
+    top:-48px;
+    right:62px;
+    width: 90px;
+    height: 90px;
+}

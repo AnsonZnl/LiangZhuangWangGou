@@ -1,0 +1,164 @@
+/*banenr 轮播图 样式*/
+.banner-inner{
+    position: relative;
+    height: 442px;
+}
+.banner{
+    height: 442px;
+    margin:auto;
+    overflow: hidden;
+    position: relative;
+}
+#index{
+    z-index:2;
+    position: absolute;
+    left:50%;
+    margin-left:-36px;
+    bottom: 20px;
+}
+#index li{
+    width:14px;
+    height: 14px;
+    border-radius: 100%;
+    background-color: #656565;
+    display: inline-block;
+    box-shadow: 0 .5px #fff;
+}
+#img{
+    height: 442px;
+}
+#img li{
+    width: 100%;
+    height: 442px;
+    position: absolute;/*必须设置为absolute，否则第一个li会把后面的都覆盖*/
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    background: url("https://images.lzwg.com/Upload/app/20171122/17340667.jpg") 50% 0 no-repeat;
+}
+#img li a{
+    position: relative;
+    display: block;
+    width: 1200px;
+    height: 442px;
+    margin:auto;
+}
+#index .on{
+    background-color: #da6f13;
+    box-shadow:none;
+}
+#img .opa-on{
+    opacity: 1;
+}
+/*main 部分*/
+.main{
+    width: 100%;
+}
+/*three-banner 三广告图部分*/
+.three-banner li{
+    float: left;
+}
+.three-banner{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.three-banner a{
+    display: block;
+    border: 12px solid #fff;
+    box-shadow: 0 0 10px #eee;
+    margin-left: 8px;
+}
+/*---通用样式---海外臻品-海外臻品-爆款推荐-新品抢先-新品抢先---通用样式---*/
+
+.common-menu-wraper{
+    margin: 40px auto 10px;
+    padding-bottom: 5px;
+    border-top: 1px solid #000;
+}
+.common-main{
+    margin-top: 26px;
+}
+.common-main li{
+    float: left;
+}
+.common-menu-wraper>img{
+    margin: auto;
+    margin-top: -1px;
+}
+.common-content{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    padding: 9px 15px;
+    width: 294px;
+    margin-left: 6px;
+    margin-top: 8px;
+    background: #fff;
+}
+.common-content img{
+    width: 100%;
+    height: 246px;
+    margin-right: 0;
+}
+.common-name{
+    position: absolute;
+    top:226px;
+    border-radius: 20px;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    width: 262px;
+    text-align: center;
+    background: #f0eeee;
+    color: black;
+}
+.p-price{
+    padding: 20px 0;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+}
+.p-price del {
+    margin: 0 3px;
+}
+.p-price strong {
+    display: inline-block;
+    padding: 0 7px;
+    margin: 0 2px;
+    letter-spacing:2px;
+    font-size: 18px;
+    color: #fff;
+    background: #f00e58;
+}
+.hot-left{
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 15px;
+    width: 592px;
+    margin-top: 8px;
+    margin-left: 8px;
+    /* margin-right: 4px; */
+    background: #fff;
+}
+.hot-left>img{
+    width: 100%;
+    height: 576px;
+}
+.hot-name{
+    width: 546px;
+    left: 20px;
+    top: 538px;
+}
+
+.pt52 {
+    padding-top: 41px;
+    padding-bottom: 30px;
+}
+
+.pb40 {
+    padding-bottom: 40px;
+    padding-top: 1px;
+}

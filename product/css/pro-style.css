@@ -1,0 +1,204 @@
+/*详情页通用样式*/
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #666;
+}
+/*导航显示隐藏*/
+.left-nav{
+    display: none;
+}
+/*详情页 main 部分*/
+.path{
+    height: 36px;
+    margin: 0 0 8px;
+    border-bottom: 1px solid #ccc;
+    line-height: 36px;
+    color: #666;
+    text-indent: 4px;
+    font-size: 12px;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 20px;
+    min-height: 60px;
+}
+.info-left .big-img{
+    position: relative;
+    width: 320px;
+    height: 340px;
+    border: 1px solid #ccc;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+.big-img img{
+    position: absolute;
+    display: block;
+    width: 310px;
+    height: 310px;
+}
+.info-left ul{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.info-left ul li{
+    float: left;
+    width: 70px;
+    margin-left: 6px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.info-left li img{
+    border: 1px solid #ccc;
+}
+.info-right{
+    position: relative;
+    width: 785px;
+    /*height: auto;*/
+    margin-left: 30px;
+}
+.float-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid #ccc;
+}
+.float-right img{
+    width: 54px;
+    height: 54px;
+}
+.info-right ul{
+    margin-left: 8px;
+}
+.info-right ul li{
+    margin-top: 10px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #333;
+}
+.buy-select{
+    margin-left: 8px;
+    border-top: 1px dotted #c9c9c9;
+}
+.buy-select .p-buy{
+    line-height: 28px;
+    margin-top: 10px;
+}
+.p-buy dt{
+    width: 60px;
+    text-align: left;
+    margin-right: 10px;
+}
+.p-buy dt dd{
+    width: 480px;
+    margin-top: -6px;
+    text-align: right;
+}
+.buy-select .checked {
+    display: inline-block;
+    margin-right: 10px;
+    width: auto;
+    padding: 0 5px;
+    border: 2px solid #d81a5a;
+    color: #666;
+}
+.buy {
+    width: 776px;
+    height: auto;
+    padding: 0 0 10px;
+    border: 1px solid #eee;
+    background: #f9f9f9;
+    margin-top: 10px;
+}
+.buy .buy_ul {
+    margin-left: 8px;
+}
+.buy-btn {
+    display: inline-block;
+    margin-left: 72px;
+    border-radius: 5px;
+    width: 194px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #ea640d;
+    color: #fff;
+    font-size: 21px;
+    font-weight:100;
+}
+.buy-btn:hover{
+    color: #fff;
+}
+.buy-btn strong{
+    font-weight:100;
+}
+.buy-btn i{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #9e8d0b;
+}
+.reduce1 {
+    width: 17px;
+    height: 17px;
+    line-height: 16px;
+    text-align: center;
+    margin: 1px 12px;
+    border: 1px solid #dbdbdb;
+    display: inline-block;
+    cursor: pointer;
+    background: #f9f9f9;
+}
+.reduce1:hover {
+    color:#ea640d ;
+    border: solid 1px #ea640d;
+}
+.number1 {
+    display: inline-block;
+    height: 18px;
+    width: 20px;
+    border: 1px solid #ccc;
+    line-height: 18px;
+    text-align: center;
+    padding: 0 4px;
+}
+.buy-ul2 li{
+    float: left;
+}
+.buy-ul2 li a{
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    border:solid 1px #b85979;
+    color: #b85979;
+    margin-right: 10px;
+}
+.buy-ul2 li a:hover{
+    color: #fff;
+    background: #b85979;
+}
+.buy-ul2 li i{
+    display: inline-block;
+    padding:2px 2px;
+    background: #b85979;
+    color: #fff;
+    text-align: center;
+}
+
+/*--------商品参数  商品详情 商品评论 同类商品------------*/
+.left-pro-title {
+    width: 208px;
+    height: 30px;
+    text-indent: 10px;
+    line-height: 30px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+}
+.relevant-classification {
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+}
