@@ -57,3 +57,33 @@ reduce1.onclick=function(){
 plus1.onclick=function(){
     number1.value++
 };
+//左侧边栏 hover show
+var  JhvsoLeft=document.getElementsByClassName("J-hvso-left");
+var  HoverShow=document.getElementsByClassName("hovershow");
+for (var s=0;s<JhvsoLeft.length;s++){
+    JhvsoLeft[s].index=s;
+    JhvsoLeft[s].onmouseover=function(){
+        var num=parseInt(this.index);
+        for(var w=0;w<JhvsoLeft.length;w++){
+            HoverShow[w].style.display="none";
+        }
+        HoverShow[num].style.display="block";
+    }
+}
+//买过该商品的用户还浏览了
+var tags=document.getElementById("tags").children;
+var tagContent=document.getElementById("tag-content").children;
+for(var t=0;t<tags.length;t++){
+    tags[t].index=t;
+    tags[t].onmouseover=function(){
+        var num=parseInt(this.index);
+        for(var a=0;a<tags.length;a++){
+            tags[a].classList.remove("selectTag");
+            tags[a].lastElementChild.style.color="#666";
+            tagContent[a].style.display="none";
+        }
+        tags[num].classList.add("selectTag");
+        tags[num].lastElementChild.style.color="red";
+        tagContent[num].style.display="block";
+    }
+}
